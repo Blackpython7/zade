@@ -22,7 +22,7 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 9999))
 LOGGER_ID = int(getenv("LOGGER_ID", None))
 
 # Get this value from @MissRose_bot on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", 7425161952))
+OWNER_ID = int(getenv("OWNER_ID", 7121907414))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -37,15 +37,15 @@ MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/StormBeatz/AudifyMusic",
+    "https://t.me/+eqE0gJDY7KE0ZTA1",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/GrayBots")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/GrayBotSupport")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/elivationn")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+IE0z4kXWLRxmOTk1")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
